@@ -3626,37 +3626,28 @@
                         Register</button>
                 </div>
             </div>
-            <script defer id="mainJS">
-console.log('Main.js at your service:)')
-
+<script defer id="mainJS">
 const table_links = document.querySelectorAll(".table_link")
-
 for ( let link of table_links ) {
     link.addEventListener('click', function(e){
         e.preventDefault()
-
         const blockID = this.getAttribute('data-href').replace('#', '')
-
         window.scrollTo({
             behavior: 'smooth',
             top: document.getElementById(blockID).getBoundingClientRect().top - document.body.getBoundingClientRect().top - 70,
          })
     })
 }
-
 document.querySelector('.scrollTop').addEventListener('click', () => 
     window.scrollTo({ top: 0, behavior: 'smooth' }))
-
 function openCloseMenu(e){
     e.preventDefault()
     document.getElementById('mobileMenu').toggleAttribute('hidden')
     document.querySelector('.overlay').toggleAttribute('hidden')
 }
-
 document.querySelector('.burger').addEventListener('click', openCloseMenu)
 document.querySelector('.close').addEventListener('click', openCloseMenu)
 document.querySelector('.overlay').addEventListener('click', openCloseMenu)
-
 const handleScroll = () => {
     if ( window.scrollY > 800) {
         document.querySelector('.scrollTop').style.opacity = '1';
@@ -3665,7 +3656,7 @@ const handleScroll = () => {
     }
 }
 window.addEventListener('scroll', handleScroll);
-            </script>
+</script>
             
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NELRSJT8H2"></script>
