@@ -623,11 +623,13 @@ figcaption {
     height: 100vh;
     max-width: 100%;
     width: 100%;
-    background: #fff;
+    background: #1e274b;
 }
 
 .content404Page h1 {
     font-size: 28px;
+    text-align: center;
+    color: #fff;
 }
 
 .content404Page.wrapper .content404 {
@@ -645,9 +647,9 @@ figcaption {
     color: #102e5b;
 }
 
-.content404Page.wrapper .content404 button {
+.content404Page.wrapper .content404 a {
     display: inline-block;
-    background: linear-gradient(94deg, #0897f8 0%, #006fbb 100%);
+    background: linear-gradient(to right, #f02020 0%, #9a0f04 100%);
     margin-right: 15px;
     padding: 5px 15px;
     border-radius: 5px;
@@ -657,8 +659,8 @@ figcaption {
     color: #fff;
 }
 
-.content404Page.wrapper .content404 button:hover {
-    background: linear-gradient(94deg, #0080d6 0%, #0095fb 100%);
+.content404Page.wrapper .content404 a:hover {
+    background: linear-gradient(to left, #f02020 0%, #9a0f04 100%);
 }
 
 .contentMap {
@@ -2126,7 +2128,7 @@ header {
 
 .buttons a.regButton:hover,
 .buttons a.regButton:active {
-    background: linear-gradient(94deg, #0080d6 0%, #0095fb 100%);
+    background: linear-gradient(to left, #f02020 0%, #9a0f04 100%);
     color: #fff;
 }
 
