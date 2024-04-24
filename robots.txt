@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://webdisk.theworldtransformed.org/sitemap.xml
