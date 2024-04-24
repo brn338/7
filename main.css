@@ -650,13 +650,12 @@ figcaption {
 .content404Page.wrapper .content404 a {
     display: inline-block;
     background: linear-gradient(to right, #f02020 0%, #9a0f04 100%);
-    margin-right: 15px;
     padding: 5px 15px;
     border-radius: 5px;
     font-size: 18px;
     line-height: 28px;
     color: #fff;
-    color: #fff;
+    text-align: center;
 }
 
 .content404Page.wrapper .content404 a:hover {
